@@ -48,5 +48,5 @@ For a Zing 8 container, enter:
   [3]: https://www.azul.com/products/zing/
   [6]: https://hub.docker.com/r/smetsys1uza/zing-debian
   [7]: https://hub.docker.com/r/smetsys1uza/zing-ubuntu
-  [53]: https://github.com/alex01t/zing/blob/master/release/centos/8-19.07.0.0-4/Dockerfile
-  [84]: https://github.com/alex01t/zing/blob/master/release/centos/11-19.07.0.0-4/Dockerfile
+  [53]: https://github.com/alex01t/zing/blob/master/centos/8-19.07.0.0-4/Dockerfile
+  [84]: https://github.com/alex01t/zing/blob/master/centos/11-19.07.0.0-4/Dockerfile
