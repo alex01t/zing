@@ -1,4 +1,4 @@
-(ubuntu) What is Zing? ![Zulu Duke in a Box][1]
+What is Zing? ![Java Duke in a Box][1]
 ======================================
 
 Azul Zing is a runtime platform that uses the Zing Virtual Machine to run Java™ technology-based applications for Linux operating systems. The Zing Virtual Machine (ZVM) allows existing Java applications to elastically scale to dozens of CPU cores and hundreds of gigabytes of memory, meaning resources can also scale up and down based on real-time demands, and without garbage collection pauses present in other Java runtimes.
@@ -9,11 +9,10 @@ Zing is built, tested, supported, and delivered by [Azul Systems][2].
 
 Check out [Zing Overview][3] for more information.
 
-Centos, Debian, and Ubuntu Docker images of Zing are available in the following repositories:
+Centos and Debian Docker images of Zing are available in the following repositories:
 
-  * [azul/zing-centos][5]
-  * [azul/zing-debian][6]
-  * [azul/zing-ubuntu][7]
+  * [smetsys1uza/zing-centos][5]
+  * [smetsys1uza/zing-debian][6]
 
 Tags and `Dockerfile` links
 ===========================
@@ -21,11 +20,11 @@ Tags and `Dockerfile` links
 Most Recent
 -----------
 
-The Zing azul/zing repository provides various Ubuntu Docker image tags. The most recent Zing versions of OpenJDK 11 and 8 are listed below:
+The Zing smetsys1uza/zing repository provides various Ubuntu Docker image tags. The most recent Zing versions of OpenJDK 11 and 8 are listed below:
 
- * [ `11` (*Dockerfile*)][84]
+ * [`11-19.07.0.0-4`, `11-19.07`, `11`][84]
 
- * [ `8` (*Dockerfile*)][53]
+ * [`8-19.07.0.0-4`, `8-19.07`, `8`, `latest`][53]
 
 
 Usage
@@ -37,19 +36,18 @@ To run a container of your choice, use commands below as an example.
 
 For a Zing 11 container, enter:
 
-    docker run -it --rm azul/zing-ubuntu:11 java -version
+    docker run -it --rm smetsys1uza/zing:11 java -version
 
 For a Zing 8 container, enter:
 
-    docker run -it --rm azul/zing-ubuntu:8 java -version
+    docker run -it --rm smetsys1uza/zing:8 java -version
 
 
   [1]: https://www.azul.com/files/ZuluDocker60.gif
-  [2]: http://www.azul.com/zulu
+  [2]: http://www.azul.com/zing
   [3]: https://www.azul.com/products/zing/
-  [5]: https://hub.docker.com/r/azul/zing-centos
-  [6]: https://hub.docker.com/r/azul/zing-debian
-  [7]: https://hub.docker.com/r/azul/zing-ubuntu
-  [53]: https://github.com/zulu-openjdk/zulu-openjdk/blob/master/8u222-8.40.0.25/Dockerfile
-  [84]: https://github.com/zulu-openjdk/zulu-openjdk/blob/master/11.0.4-11.33/Dockerfile
+  [5]: https://hub.docker.com/r/smetsys1uza/zing-centos
+  [6]: https://hub.docker.com/r/smetsys1uza/zing-debian
+  [53]: https://github.com/alex01t/zing/blob/master/release/ubuntu/8-19.07.0.0-4/Dockerfile
+  [84]: https://github.com/alex01t/zing/blob/master/release/ubuntu/11-19.07.0.0-4/Dockerfile
   

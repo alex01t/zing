@@ -1,6 +1,5 @@
 FROM ubuntu:18.04
 
- 
 RUN apt-get -qq update && \
     apt-get install -yqq gnupg2 locales && \
     locale-gen en_US.UTF-8 && \
