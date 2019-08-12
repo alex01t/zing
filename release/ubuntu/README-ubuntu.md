@@ -11,9 +11,9 @@ Check out [Zing Overview][3] for more information.
 
 Centos, Debian, and Ubuntu Docker images of Zing are available in the following repositories:
 
-  * [azul/zing-release-centos][5]
-  * [azul/zing-release-debian][6]
-  * [azul/zing-release-ubuntu][7]
+  * [azul/zing-centos][5]
+  * [azul/zing-debian][6]
+  * [azul/zing-ubuntu][7]
 
 Tags and `Dockerfile` links
 ===========================
@@ -47,9 +47,9 @@ For a Zing 8 container, enter:
   [1]: https://www.azul.com/files/ZuluDocker60.gif
   [2]: http://www.azul.com/zulu
   [3]: https://www.azul.com/products/zing/
-  [5]: https://hub.docker.com/r/azul/zing-release-centos
-  [6]: https://hub.docker.com/r/azul/zing-release-debian
-  [7]: https://hub.docker.com/r/azul/zing-release-ubuntu
+  [5]: https://hub.docker.com/r/azul/zing-centos
+  [6]: https://hub.docker.com/r/azul/zing-debian
+  [7]: https://hub.docker.com/r/azul/zing-ubuntu
   [53]: https://github.com/zulu-openjdk/zulu-openjdk/blob/master/8u222-8.40.0.25/Dockerfile
   [84]: https://github.com/zulu-openjdk/zulu-openjdk/blob/master/11.0.4-11.33/Dockerfile
   
