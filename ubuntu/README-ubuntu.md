@@ -22,9 +22,11 @@ Most Recent
 
 The Zing smetsys1uza/zing repository provides various Ubuntu Docker image tags. The most recent Zing versions of OpenJDK 11 and 8 are listed below:
 
- * [`11-19.07.0.0-4`, `11-19.07`, `11`][84]
+ * [`11.0.3-19.07.0.0`, `11`][52]
 
- * [`8-19.07.0.0-4`, `8-19.07`, `8`, `latest`][53]
+ * [`8u222-19.07.0.0`, `8`, `latest`][53]
+
+ * [`7u232-19.07.0.0`, `7`, `latest`][54]
 
 
 Usage
@@ -48,6 +50,7 @@ For a Zing 8 container, enter:
   [3]: https://www.azul.com/products/zing/
   [5]: https://hub.docker.com/r/smetsys1uza/zing-centos
   [6]: https://hub.docker.com/r/smetsys1uza/zing-debian
-  [53]: https://github.com/alex01t/zing/blob/master/ubuntu/8-19.07.0.0-4/Dockerfile
-  [84]: https://github.com/alex01t/zing/blob/master/ubuntu/11-19.07.0.0-4/Dockerfile
+  [52]: https://github.com/alex01t/zing/blob/master/ubuntu/11.0.3-19.07.0.0/Dockerfile
+  [53]: https://github.com/alex01t/zing/blob/master/ubuntu/8u222-19.07.0.0/Dockerfile
+  [54]: https://github.com/alex01t/zing/blob/master/ubuntu/7u232-19.07.0.0/Dockerfile
   
